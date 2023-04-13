@@ -2,32 +2,22 @@
 
 <img src="../images/example-envs.png" align="middle" width="3000"/>
 
-The Unity ML-Agents Toolkit includes an expanding set of example environments
-that highlight the various features of the toolkit. These environments can also
-serve as templates for new environments or as ways to test new ML algorithms.
-Environments are located in `Project/Assets/ML-Agents/Examples` and summarized
-below.
+Unity ML-Agents 工具包包括一组扩展的示例环境，突出了工具包的各种功能。 这些环境还可以用作新环境的模板或测试新 ML 算法的方法。 环境位于 `Project/Assets/ML-Agents/Examples` 中，总结如下。
 
-For the environments that highlight specific features of the toolkit, we provide
-the pre-trained model files and the training config file that enables you to
-train the scene yourself. The environments that are designed to serve as
-challenges for researchers do not have accompanying pre-trained model files or
-training configs and are marked as _Optional_ below.
+对于突出工具包特定功能的环境，我们提供了预训练的模型文件和训练配置文件，使您能够自己训练场景。 旨在为研究人员提供挑战的环境没有附带的预训练模型文件或训练配置，并在下面标记为可选。 _Optional_.
 
-This page only overviews the example environments we provide. To learn more on
-how to design and build your own environments see our
-[Making a New Learning Environment](Learning-Environment-Create-New.md) page. If
-you would like to contribute environments, please see our
-[contribution guidelines](CONTRIBUTING.md) page.
+T此页面仅概述我们提供的示例环境。 要了解有关如何设计和构建您自己的环境的更多信息，请参阅我们的
+[创建新学习环境](Learning-Environment-Create-New.md) 页面. If
+如果您想贡献环境, 请参阅我们的
+[贡献指南](CONTRIBUTING.md)页面.
 
-## Basic
+## 基础入门案例
 
 ![Basic](images/basic.png)
 
-- Set-up: A linear movement task where the agent must move left or right to
-  rewarding states.
-- Goal: Move to the most reward state.
-- Agents: The environment contains one agent.
+- Set-up: 一个线性移动任务，代理必须向左或向右移动到奖励状态
+- Goal: 目标：移动到最奖励的状态。
+- Agents: 环境包含一个代理。
 - Agent Reward Function:
   - -0.01 at each step
   - +0.1 for arriving at suboptimal state.
@@ -40,11 +30,11 @@ you would like to contribute environments, please see our
 - Float Properties: None
 - Benchmark Mean Reward: 0.93
 
-## 3DBall: 3D Balance Ball
+## 3DBall：3D平衡球
 
 ![3D Balance Ball](images/balance.png)
 
-- Set-up: A balance-ball task, where the agent balances the ball on it's head.
+- Set-up: 一项平衡球任务，智能体平衡它头上的球。
 - Goal: The agent must balance the ball on it's head for as long as possible.
 - Agents: The environment contains 12 agents of the same kind, all using the
   same Behavior Parameters.
