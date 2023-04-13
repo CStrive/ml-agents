@@ -11,41 +11,36 @@
 项目，使游戏和模拟作为环境训练智能代理。我们提供实现(基于PyTorch)最先进的算法，使游戏开发者和爱好者轻松为2D、3D和VR/AR游戏训练智能代理。研究人员也可以使用提供了简单易用的Python API来使用强化学习训练agent，模仿学习，神经进化或其他方法。这些训练有素的特工可以用于多种目的，包括控制NPC行为设置，如多代理和对抗性)，自动测试游戏构建在发行前评估不同的游戏设计决策。的ML-Agents工具包对游戏开发者和AI研究人员都是互惠互利的提供了一个中央平台，可以在Unity上评估人工智能的进步然后制作了丰富的环境，便于更广泛的研究和游戏开发者社区。
 
 ## Features
-- 17+ [example Unity environments](Learning-Environment-Examples.md)
-- Support for multiple environment configurations and training scenarios
-- Flexible Unity SDK that can be integrated into your game or custom Unity scene
-- Support for training single-agent, multi-agent cooperative, and multi-agent
-  competitive scenarios via several Deep Reinforcement Learning algorithms (PPO, SAC, MA-POCA, self-play).
-- Support for learning from demonstrations through two Imitation Learning algorithms (BC and GAIL).
-- Quickly and easily add your own [custom training algorithm](Python-Custom-Trainer-Plugin.md) and/or components.
-- Easily definable Curriculum Learning scenarios for complex tasks
-- Train robust agents using environment randomization
-- Flexible agent control with On Demand Decision Making
-- Train using multiple concurrent Unity environment instances
-- Utilizes the [Unity Inference Engine](Unity-Inference-Engine.md) to
-  provide native cross-platform support
-- Unity environment [control from Python](Python-LLAPI.md)
-- Wrap Unity learning environments as a [gym](Python-Gym-API.md) environment
-- Wrap Unity learning environments as a [PettingZoo](Python-PettingZoo-API.md) environment
+- 17+ [示例 Unity 环境](Learning-Environment-Examples.md)
+- 支持多种环境配置和训练场景
+- 灵活的 Unity SDK，可以集成到您的游戏或自定义 Unity 场景中
+- 支持通过多种深度强化学习算法（PPO、SAC、MA-POCA、self-play）训练单代理、多代理合作和多代理竞争场景。
+- 支持通过两种模仿学习算法（BC 和 GAIL）从演示中学习。
+- 快速轻松地添加您自己的 [自定义训练算法](Python-Custom-Trainer-Plugin.md) 或组件.
+- 针对复杂任务轻松定义的课程学习场景
+- 使用环境随机化训练健壮的代理
+- 通过按需决策制定灵活的代理控制
+- 使用多个并发 Unity 环境实例进行训练
+- 利用 Unity 推理引擎(Unity-Inference-Engine.md) 提供原生跨平台支持
+- Unity环境 [Python控制](Python-LLAPI.md)
+- 利用 Unity推理引擎 [gym](Python-Gym-API.md) 提供原生跨平台支持
+- 将 Unity 学习环境包装为 [PettingZoo](Python-PettingZoo-API.md) 环境
 
-See our [ML-Agents Overview](ML-Agents-Overview.md) page for detailed
-descriptions of all these features. Or go straight to our [web docs](https://unity-technologies.github.io/ml-agents/).
-## Releases & Documentation
+有关所有这些功能的详细说明，请参阅我们的[ML-Agents](ML-Agents-Overview.md) 概述页面
+或者直接访问我们的[网络文档] (https://unity-technologies.github.io/ml-agents/).
+## 发布和文档
 
 **Our latest, stable release is `Release 20`. Click
 [here](Getting-Started.md)
 to get started with the latest release of ML-Agents.**
 
-**You can also check out our new [web docs](https://unity-technologies.github.io/ml-agents/)!**
+**您还可以查看我们的新[网络文档](https://unity-technologies.github.io/ml-agents/)!**
 
-The table below lists all our releases, including our `main` branch which is
-under active development and may be unstable. A few helpful guidelines:
-- The [Versioning page](Versioning.md) overviews how we manage our GitHub
-  releases and the versioning process for each of the ML-Agents components.
-- The [Releases page](https://github.com/Unity-Technologies/ml-agents/releases)
-  contains details of the changes between releases.
-- The [Migration page](Migrating.md) contains details on how to upgrade
-  from earlier releases of the ML-Agents Toolkit.
+下表列出了我们所有的版本，包括我们正在积极开发并且可能不稳定的主要`main`分支。 一些有用的指南：
+- [Versioning page 版本控制](Versioning.md) 页面概述了我们如何管理我们的 GitHub 版本以及每个 ML-Agents 组件的版本控制过程。
+- [Releases page 版本页面](https://github.com/Unity-Technologies/ml-agents/releases)
+  版本页面包含版本之间更改的详细信息。
+- [Migration page 迁移页面](Migrating.md) 包含有关如何从早期版本的 ML-Agents 工具包升级的详细信息。
 - The **Documentation** links in the table below include installation and usage
   instructions specific to each release. Remember to always use the
   documentation that corresponds to the release version you're using.
