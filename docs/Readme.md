@@ -41,11 +41,8 @@ to get started with the latest release of ML-Agents.**
 - [Releases page 版本页面](https://github.com/Unity-Technologies/ml-agents/releases)
   版本页面包含版本之间更改的详细信息。
 - [Migration page 迁移页面](Migrating.md) 包含有关如何从早期版本的 ML-Agents 工具包升级的详细信息。
-- The **Documentation** links in the table below include installation and usage
-  instructions specific to each release. Remember to always use the
-  documentation that corresponds to the release version you're using.
-- The `com.unity.ml-agents` package is [verified](https://docs.unity3d.com/2020.1/Documentation/Manual/pack-safe.html)
-  for Unity 2020.1 and later. Verified packages releases are numbered 1.0.x.
+- 下表中的文档链接包括特定于每个版本的安装和使用说明。 请记住始终使用与您正在使用的发行版本相对应的文档。
+- `com.unity.ml-agents` 包已针对 Unity 2020.1 及更高版本进行[verified 验证](https://docs.unity3d.com/2020.1/Documentation/Manual/pack-safe.html)。 已验证的软件包版本编号为 1.0.x
 
 | **Version** | **Release Date** | **Source** | **Documentation** | **Download** | **Python Package** | **Unity Package** |
 |:-------:|:------:|:-------------:|:-------:|:------------:|:------------:|:------------:|
@@ -53,12 +50,10 @@ to get started with the latest release of ML-Agents.**
 | **main (unstable)** | -- | [source](https://github.com/Unity-Technologies/ml-agents/tree/main) | [docs](https://github.com/Unity-Technologies/ml-agents/tree/main/docs/Readme.md) | [download](https://github.com/Unity-Technologies/ml-agents/archive/main.zip) | -- | -- |
 | **Verified Package 1.0.8** | **May 26, 2021** | **[source](https://github.com/Unity-Technologies/ml-agents/tree/com.unity.ml-agents_1.0.8)** | **[docs](https://github.com/Unity-Technologies/ml-agents/blob/release_20_verified_docs/docs/Readme.md)** | **[download](https://github.com/Unity-Technologies/ml-agents/archive/com.unity.ml-agents_1.0.8.zip)** | **[0.16.1](https://pypi.org/project/mlagents/0.16.1/)** | **[1.0.8](https://docs.unity3d.com/Packages/com.unity.ml-agents@1.0/manual/index.html)** |
 
-If you are a researcher interested in a discussion of Unity as an AI platform,
-see a pre-print of our
-[reference paper on Unity and the ML-Agents Toolkit](https://arxiv.org/abs/1809.02627).
+如果您是一名研究人员，对将 Unity 作为 AI 平台进行讨论感兴趣，请参阅我们关于。
+[ Unity 和 ML-Agents 工具包的参考论文的预印本](https://arxiv.org/abs/1809.02627).
 
-If you use Unity or the ML-Agents Toolkit to conduct research, we ask that you
-cite the following paper as a reference:
+如果您使用 Unity 或 ML-Agents Toolkit 进行研究，我们要求您引用以下论文作为参考:
 
 ```
 @article{juliani2020,
@@ -69,8 +64,7 @@ cite the following paper as a reference:
 }
 ```
 
-Additionally, if you use the MA-POCA trainer in your research, we ask that you
-cite the following paper as a reference:
+此外，如果您在研究中使用 MA-POCA 训练器，我们要求您引用以下论文作为参考:
 
 ```
 @article{cohen2022,
@@ -83,63 +77,63 @@ cite the following paper as a reference:
 
 
 
-## Additional Resources
+## Additional Resources 额外资源
 
-We have a Unity Learn course,
+我们有一个 Unity Learn 课程,
 [ML-Agents: Hummingbirds](https://learn.unity.com/course/ml-agents-hummingbirds),
-that provides a gentle introduction to Unity and the ML-Agents Toolkit.
+它提供了对 Unity 和 ML-Agents Toolkit的简单介绍.
 
-We've also partnered with
-[CodeMonkeyUnity](https://www.youtube.com/c/CodeMonkeyUnity) to create a
-[series of tutorial videos](https://www.youtube.com/playlist?list=PLzDRvYVwl53vehwiN_odYJkPBzcqFw110)
-on how to implement and use the ML-Agents Toolkit.
+我们还与Youtuber
+[CodeMonkeyUnity](https://www.youtube.com/c/CodeMonkeyUnity) 合作创建了
+[一系列的视频教程](https://www.youtube.com/playlist?list=PLzDRvYVwl53vehwiN_odYJkPBzcqFw110)
+介绍如何实施和使用 ML-Agents Toolkit。
 
-We have also published a series of blog posts that are relevant for ML-Agents:
+我们还发布了一系列与 ML-Agents 相关的博文：
 
 - (July 12, 2021)
-  [ML-Agents plays Dodgeball](https://blog.unity.com/technology/ml-agents-plays-dodgeball)
+  [ML-Agents plays Dodgeball ML-Agents 玩躲避球](https://blog.unity.com/technology/ml-agents-plays-dodgeball)
 - (May 5, 2021)
-  [ML-Agents v2.0 release: Now supports training complex cooperative behaviors](https://blogs.unity3d.com/2021/05/05/ml-agents-v2-0-release-now-supports-training-complex-cooperative-behaviors/)
+  [ML-Agents v2.0 发布：现在支持训练复杂的合作行为](https://blogs.unity3d.com/2021/05/05/ml-agents-v2-0-release-now-supports-training-complex-cooperative-behaviors/)
 - (December 28, 2020)
-  [Happy holidays from the Unity ML-Agents team!](https://blogs.unity3d.com/2020/12/28/happy-holidays-from-the-unity-ml-agents-team/)
+  [Unity ML-Agents 团队祝您节日快乐！](https://blogs.unity3d.com/2020/12/28/happy-holidays-from-the-unity-ml-agents-team/)
 - (November 20, 2020)
-  [How Eidos-Montréal created Grid Sensors to improve observations for training agents](https://blogs.unity3d.com/2020/11/20/how-eidos-montreal-created-grid-sensors-to-improve-observations-for-training-agents/)
+  [Eidos-Montréal 如何创建网格传感器来改进训练代理的观察](https://blogs.unity3d.com/2020/11/20/how-eidos-montreal-created-grid-sensors-to-improve-observations-for-training-agents/)
 - (November 11, 2020)
-  [2020 AI@Unity interns shoutout](https://blogs.unity3d.com/2020/11/11/2020-aiunity-interns-shoutout/)
+  [2020 AI@Unity 实习生大喊大叫](https://blogs.unity3d.com/2020/11/11/2020-aiunity-interns-shoutout/)
 - (May 12, 2020)
-  [Announcing ML-Agents Unity Package v1.0!](https://blogs.unity3d.com/2020/05/12/announcing-ml-agents-unity-package-v1-0/)
+  [宣布推出 ML-Agents Unity Package v1.0！](https://blogs.unity3d.com/2020/05/12/announcing-ml-agents-unity-package-v1-0/)
 - (February 28, 2020)
-  [Training intelligent adversaries using self-play with ML-Agents](https://blogs.unity3d.com/2020/02/28/training-intelligent-adversaries-using-self-play-with-ml-agents/)
+  [使用 ML-Agents 自我对弈训练智能对手](https://blogs.unity3d.com/2020/02/28/training-intelligent-adversaries-using-self-play-with-ml-agents/)
 - (November 11, 2019)
-  [Training your agents 7 times faster with ML-Agents](https://blogs.unity3d.com/2019/11/11/training-your-agents-7-times-faster-with-ml-agents/)
+  [使用 ML-Agents 将您的代理训练速度提高 7 倍](https://blogs.unity3d.com/2019/11/11/training-your-agents-7-times-faster-with-ml-agents/)
 - (October 21, 2019)
-  [The AI@Unity interns help shape the world](https://blogs.unity3d.com/2019/10/21/the-aiunity-interns-help-shape-the-world/)
+  [AI@Unity 实习生帮助塑造世界](https://blogs.unity3d.com/2019/10/21/the-aiunity-interns-help-shape-the-world/)
 - (April 15, 2019)
-  [Unity ML-Agents Toolkit v0.8: Faster training on real games](https://blogs.unity3d.com/2019/04/15/unity-ml-agents-toolkit-v0-8-faster-training-on-real-games/)
+  [Unity ML-Agents Toolkit v0.8：更快地训练真实游戏](https://blogs.unity3d.com/2019/04/15/unity-ml-agents-toolkit-v0-8-faster-training-on-real-games/)
 - (March 1, 2019)
-  [Unity ML-Agents Toolkit v0.7: A leap towards cross-platform inference](https://blogs.unity3d.com/2019/03/01/unity-ml-agents-toolkit-v0-7-a-leap-towards-cross-platform-inference/)
+  [Unity ML-Agents Toolkit v0.7：迈向跨平台推理的飞跃](https://blogs.unity3d.com/2019/03/01/unity-ml-agents-toolkit-v0-7-a-leap-towards-cross-platform-inference/)
 - (December 17, 2018)
-  [ML-Agents Toolkit v0.6: Improved usability of Brains and Imitation Learning](https://blogs.unity3d.com/2018/12/17/ml-agents-toolkit-v0-6-improved-usability-of-brains-and-imitation-learning/)
+  [ML-Agents Toolkit v0.6：改进大脑和模仿学习的可用性](https://blogs.unity3d.com/2018/12/17/ml-agents-toolkit-v0-6-improved-usability-of-brains-and-imitation-learning/)
 - (October 2, 2018)
-  [Puppo, The Corgi: Cuteness Overload with the Unity ML-Agents Toolkit](https://blogs.unity3d.com/2018/10/02/puppo-the-corgi-cuteness-overload-with-the-unity-ml-agents-toolkit/)
+  [Puppo, The Corgi：使用 Unity ML-Agents 工具包的可爱超载](https://blogs.unity3d.com/2018/10/02/puppo-the-corgi-cuteness-overload-with-the-unity-ml-agents-toolkit/)
 - (September 11, 2018)
-  [ML-Agents Toolkit v0.5, new resources for AI researchers available now](https://blogs.unity3d.com/2018/09/11/ml-agents-toolkit-v0-5-new-resources-for-ai-researchers-available-now/)
+  [ML-Agents Toolkit v0.5，面向 AI 研究人员的新资源现已推出](https://blogs.unity3d.com/2018/09/11/ml-agents-toolkit-v0-5-new-resources-for-ai-researchers-available-now/)
 - (June 26, 2018)
-  [Solving sparse-reward tasks with Curiosity](https://blogs.unity3d.com/2018/06/26/solving-sparse-reward-tasks-with-curiosity/)
+  [用好奇心解决稀疏奖励任务](https://blogs.unity3d.com/2018/06/26/solving-sparse-reward-tasks-with-curiosity/)
 - (June 19, 2018)
-  [Unity ML-Agents Toolkit v0.4 and Udacity Deep Reinforcement Learning Nanodegree](https://blogs.unity3d.com/2018/06/19/unity-ml-agents-toolkit-v0-4-and-udacity-deep-reinforcement-learning-nanodegree/)
+  [Unity ML-Agents Toolkit v0.4 和 Udacity 深度强化学习纳米学位](https://blogs.unity3d.com/2018/06/19/unity-ml-agents-toolkit-v0-4-and-udacity-deep-reinforcement-learning-nanodegree/)
 - (May 24, 2018)
-  [Imitation Learning in Unity: The Workflow](https://blogs.unity3d.com/2018/05/24/imitation-learning-in-unity-the-workflow/)
+  [Unity 中的模仿学习：工作流程](https://blogs.unity3d.com/2018/05/24/imitation-learning-in-unity-the-workflow/)
 - (March 15, 2018)
-  [ML-Agents Toolkit v0.3 Beta released: Imitation Learning, feedback-driven features, and more](https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/)
+  [ML-Agents Toolkit v0.3 Beta 发布：模仿学习、反馈驱动功能等](https://blogs.unity3d.com/2018/03/15/ml-agents-v0-3-beta-released-imitation-learning-feedback-driven-features-and-more/)
 - (December 11, 2017)
-  [Using Machine Learning Agents in a real game: a beginner’s guide](https://blogs.unity3d.com/2017/12/11/using-machine-learning-agents-in-a-real-game-a-beginners-guide/)
+  [在真实游戏中使用机器学习代理：新手指南](https://blogs.unity3d.com/2017/12/11/using-machine-learning-agents-in-a-real-game-a-beginners-guide/)
 - (December 8, 2017)
-  [Introducing ML-Agents Toolkit v0.2: Curriculum Learning, new environments, and more](https://blogs.unity3d.com/2017/12/08/introducing-ml-agents-v0-2-curriculum-learning-new-environments-and-more/)
+  [介绍 ML-Agents 工具包 v0.2：课程学习、新环境等](https://blogs.unity3d.com/2017/12/08/introducing-ml-agents-v0-2-curriculum-learning-new-environments-and-more/)
 - (September 19, 2017)
-  [Introducing: Unity Machine Learning Agents Toolkit](https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/)
+  [介绍：Unity 机器学习代理工具包](https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/)
 - Overviewing reinforcement learning concepts
-  ([multi-armed bandit](https://blogs.unity3d.com/2017/06/26/unity-ai-themed-blog-entries/)
+  ([多臂强盗](https://blogs.unity3d.com/2017/06/26/unity-ai-themed-blog-entries/)
   and
   [Q-learning](https://blogs.unity3d.com/2017/08/22/unity-ai-reinforcement-learning-with-q-learning/))
 
@@ -150,10 +144,9 @@ We have also published a series of blog posts that are relevant for ML-Agents:
 
 ## Community and Feedback
 
-The ML-Agents Toolkit is an open-source project and we encourage and welcome
-contributions. If you wish to contribute, be sure to review our
-[contribution guidelines](CONTRIBUTING.md) and
-[code of conduct](../CODE_OF_CONDUCT.md).
+ML-Agents 工具包是一个开源项目，我们鼓励并欢迎贡献。 如果您想做出贡献，请务必查看我们的
+[贡献指南](CONTRIBUTING.md) and
+[行为守则](../CODE_OF_CONDUCT.md).
 
 For problems with the installation and setup of the ML-Agents Toolkit, or
 discussions about how to best setup or train your agents, please create a new
